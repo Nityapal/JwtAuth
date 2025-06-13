@@ -3,8 +3,7 @@ package com.jwt.example.JWTExample.models;
 
 import lombok.*;
 
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
@@ -13,4 +12,10 @@ public class User {
     private String userId;
     private String name;
     private String email;
+
+//    public User(String userId, String name, String email) {
+//        this.userId = userId;
+//        this.name = name;
+//        this.email = email;
+//    }
 }
